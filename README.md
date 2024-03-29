@@ -11,3 +11,11 @@
 - [spring-security-test](https://mvnrepository.com/artifact/org.springframework.security/spring-security-test)
 - [h2](https://mvnrepository.com/artifact/com.h2database/h2) (Escopo de tempo de execução)
 - [java-jwt](https://mvnrepository.com/artifact/com.auth0/java-jwt/4.4.0)
+
+## Entidade Usuários
+| Atributo    | Tipo       |
+|-------------|------------|
+| id (uuid)   | string     |
+| name        | string     |
+| email       | string     |
+| passaord    | string     |
