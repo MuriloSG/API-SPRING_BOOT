@@ -19,3 +19,19 @@
 | name        | string     |
 | email       | string     |
 | passaord    | string     |
+
+## Endpoints de Autenticação
+
+### Login
+
+- **URL**: `/auth/login`
+- **Método**: POST
+- **Respostas**: 
+ - **200**: Ok
+ - **400**: Bad request
+- **Corpo da Requisição**:
+  ```json
+  {
+    "email": "string",
+    "password": "string"
+  }
