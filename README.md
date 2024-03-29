@@ -85,12 +85,12 @@ Este endpoint retorna uma lista de usuários cadastrados no sistema.
   ```json
   [
     {
-      "id": string,
+      "id": "string",
       "name": "string",
       "email": "exemplo@example.com"
     },
     {
-      "id": string,
+      "id": "string",
       "name": "string",
       "email": "outroexemplo@example.com"
     }
