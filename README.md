@@ -20,8 +20,32 @@
 | email       | string     |
 | passaord    | string     |
 
-## Endpoints de Autenticação
+## Endpoints de Autenticação:
 
+## Register
+
+- **URL**: `/auth/register`
+- **Método**: POST
+- **Respostas**:
+  - **200**: Ok
+  - **400**: Bad request
+
+- **Corpo da Requisição**:
+  ```json
+  {
+    "name": "string"
+    "email": "string",
+    "password": "string",
+  }
+
+- **Corpo da Resposta**:
+  ```json
+  {
+    "name": "string"
+    "email": "string",
+    "token": "string"
+  }
+  ```
 ## Login
 
 - **URL**: `/auth/login`
@@ -36,3 +60,13 @@
     "email": "string",
     "password": "string"
   }
+  ```
+
+- **Corpo da Resposta**:
+  ```json
+  {
+    "name": "string"
+    "email": "string",
+    "token": "string"
+  }
+  ```
