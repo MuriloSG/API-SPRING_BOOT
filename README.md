@@ -22,7 +22,7 @@
 
 ## Endpoints de Autenticação:
 
-## Register
+### Register
 
 - **URL**: `/auth/register`
 - **Método**: POST
@@ -46,7 +46,7 @@
     "token": "string"
   }
   ```
-## Login
+### Login
 
 - **URL**: `/auth/login`
 - **Método**: POST
@@ -70,3 +70,28 @@
     "token": "string"
   }
   ```
+
+## endPoints de usuário autenticados
+### Obter Usuários
+
+Este endpoint retorna uma lista de usuários cadastrados no sistema.
+
+- **URL**: `/users`
+- **Método**: GET
+- **Resposta de Sucesso**:
+  - Código: 200 OK
+  - Corpo da Resposta: Lista de objetos JSON contendo informações dos usuários
+- **Exemplo de Resposta**:
+  ```json
+  [
+    {
+      "id": 1,
+      "name": "Exemplo",
+      "email": "exemplo@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Outro Exemplo",
+      "email": "outroexemplo@example.com"
+    }
+  ]
