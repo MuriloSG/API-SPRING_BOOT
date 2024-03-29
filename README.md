@@ -27,8 +27,8 @@
 - **URL**: `/auth/login`
 - **Método**: POST
 - **Respostas**: 
- - **200**: Ok
- - **400**: Bad request
+ -- **200**: Ok
+ -- **400**: Bad request
 - **Corpo da Requisição**:
   ```json
   {
