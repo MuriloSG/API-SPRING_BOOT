@@ -22,13 +22,14 @@
 
 ## Endpoints de Autenticação
 
-### Login
+## Login
 
 - **URL**: `/auth/login`
 - **Método**: POST
-- **Respostas**: 
- -- **200**: Ok
- -- **400**: Bad request
+- **Respostas**:
+  - **200**: Ok
+  - **400**: Bad request
+
 - **Corpo da Requisição**:
   ```json
   {
